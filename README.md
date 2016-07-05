@@ -10,3 +10,6 @@ The data contained in the tidy.csv and tidymeans.csv files are derived from the 
 * **run_analysis.R**: An R script that downloads the original IWAAL data, unzips the directory, loads the data, and compiles the tidy.csv and tidymeans.csv data files.
 * **codebook.md**: A description of the variables in tidy.csv and tidymeans.csv
 * **readme.md**: A description of the files in this GitHub directory
+
+## Running the run_analysis.R script
+The script will run if the Samsung data is already is loaded into the working directory.  If the data is not loaded, then there is a commented section at the beginning of the script to download and unzip the data.
